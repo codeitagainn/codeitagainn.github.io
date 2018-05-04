@@ -113,8 +113,7 @@ img.icon-row.validate-icon {
 
 .products-ive-built {
   height: 30em;
-  position: relative;
-  left: 2em;
+  margin-left: 2em;
 }
 
 p.main-header {

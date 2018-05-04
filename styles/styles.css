@@ -31,12 +31,13 @@ p.nav-header {
   display: flex;
   align-items: center;
   position: relative;
-  left: 1em;
+  left: 2em;
 }
 
 img.cia-logo {
   width: 3em;
   height: 3em;
+  margin-right: 0.5em;
 }
 
 p.logo-font {
@@ -44,4 +45,120 @@ p.logo-font {
   font-weight: 600;
   font-size: 25px;
   text-transform: uppercase;
+}
+
+img.icon-row {
+  width: 7em;
+  height: 7em;
+}
+
+.icon-displays-container {
+  width: 100%;
+  border-bottom: 1px solid #133F72;
+}
+
+.icon-displays {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-wrapper p {
+  font-size: 22px;
+  color: #4A90E2;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 600;
+}
+
+.products-ive-built {
+  height: 30em;
+  position: relative;
+  left: 2em;
+}
+
+p.main-header {
+  font-size: 22px;
+  color: #133F72;
+  font-family: 'Poppins', sans-serif;
+}
+
+p.sub-header {
+  font-size: 16px;
+  color: #133F72;
+  font-family: 'Arimo', sans-serif;
+}
+
+.product-card-container {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product-card-item {
+  display: flex;
+  flex-direction: column;
+  width: 18em;
+  height: 22em;
+  background: green;
+  box-shadow: 0 0 0 0.5px rgba(3,42,60,.2), 0 0 0 1px rgba(3,42,60,.1), 0 14px 28px rgba(3,42,60,.25), 0 10px 10px rgba(3,42,60,.22);
+}
+
+.product-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 10%;
+  border-bottom: 2px solid white;
+}
+
+.product-title-wrapper .product-title {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.product-image-wrapper {
+  height: 90%;
+  width: 100%;
+}
+
+img.product-ive-built-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product-card-item.outside-guide {
+  background: #157B65;
+}
+
+.product-card-item.product-people {
+  background: #6acbb8;
+}
+
+.product-card-item.min-wardrobe {
+  background: white;
+}
+
+.product-title-wrapper .product-title.min-wardrobe {
+  color: black;
+}
+
+.product-title-wrapper.min-wardrobe {
+  border-bottom: 2px solid black;
+}
+
+a.my-products-link {
+  text-decoration: none;
 }

@@ -75,7 +75,7 @@ img.icon-row.validate-icon {
 }
 
 .code-it-again-pitch-section {
-  height: 30em;
+  height: 31.5em;
   width: 100%;
   border-bottom: 1px solid #133F72;
   display: flex;
@@ -143,9 +143,14 @@ p.sub-header.my-products-subheader {
   margin-bottom: 1.5em;
 }
 
-iframe.code-it-again-frame {
+p.sub-header.my-email {
+  margin-top: 1em;
+}
+
+.video-container {
   margin-top: 4em;
 }
+
 
 .product-card-container {
   width: 95%;
